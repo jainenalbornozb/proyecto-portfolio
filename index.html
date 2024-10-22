@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>El portfolio de Jainen</title>    
+    <!-- Google Fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+    <!-- Estilo de CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Iconos -->
+    <script
+      src="https://kit.fontawesome.com/4d235eb227.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <!-- Cabecera con título y barra de navegación -->
+    <header>
+      <a href="#" class="logo">Jainen Banquero Albornoz</a>
+
+      <input type="checkbox" name="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon-action"
+        ><div class="fa-solid fa-bars" id="menu-icon"></div>
+      </label>
+      <!-- Barra de navegación -->
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#hero-text">Sobre mí</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+     
+   <!-- Hero section -->
+   <section class="hero">
+    <div class="hero-text" id="hero-text">
+      <h5>Frontend Dev Trainee</h5>
+      <h4>Community Manager</h4>
+      <h1>Jainen</h1>
+      <p>¡Bienvenido a mi porfolio! Acá vas a poder
+        conocer un poco sobre mi, además de encontrar mis Proyectos. El año pasado comenzó mi
+        aventura en el mundo IT: con el curso de Programación Web Inicial de BA Multiplica
+        comenzó mi pasión por programar. Como proyecto final, presenté una
+        página tributo a CultMoviez, página donde se podía encontrar películas de culto, cine
+        independiente y clásico para ver online. Actualmente me encuentro
+        realizando el curso de Programación Full-Stack dictado por Formar,
+        en Digital House.</p>
+        <a href="https://docs.google.com/document/d/1NE15Wlxo3I8c7nK5RhqlL5bUvmeih460cnJrq_ohrFI/edit?usp=sharing" target="_blank">CV</a>
+    </div>
+
+    
+    <div class="hero-img">
+      <img src="./assets/img/fotocv.jpg" alt="foto-presentacion-jainen">
+    </div>
+
+  </section>
+
+  <div class="scroll-down">
+    <a href=""><i class="fa-solid fa-circle-down"></i></a>
+  </div>
+
+      <section id="proyectos">
+        <h2>Mis proyectos</h2>
+        <article class="proyecto">
+          <div>
+            <a href="https://github.com/jainenalbornozb/cultmovies.github" target="_blank">
+            <img src="./assets/img/cultmovies.png" alt="cult-movies-web" />
+          </a>
+          </div>
+        </article>
+
+        <article class="proyecto">
+          <div>
+            <a href="https://github.com/jainenalbornozb/juego-numero-secreto" target="_blank">
+            <img src="./assets/img/numerosecretoalura.png" alt="juego-numero-secreto" />
+          </a>
+          </div>
+        </article>
+
+        <article class="proyecto">
+          <div>
+            <a href="https://github.com/jainenalbornozb/mercado-liebre-tp" target="_blank">
+            <img src="./assets/img/mercadoliebre.png" alt="mercado-liebre-web" />
+          </a>
+          </div>
+        </article> 
+      </section>
+
+      <section id="contacto">
+        <form action="" method="get">
+          <label for="nombre">Nombre</label>
+          <input
+            type="text"
+            name="nombre"
+            placeholder="Ingresa tu nombre"
+            id="nombre"
+            required
+          />
+          <label for="mail">Mail</label>
+          <input
+            type="email"
+            name="mail"
+            placeholder="Ingresa tu mail"
+            id="mail"
+            required
+          />
+          <label for="mensaje">Tu mensaje</label>
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            placeholder="Deja tu mensaje, duda o consulta"
+            required
+          ></textarea>
+          <button type="submit" class="btn-submit">Enviar</button>
+          <button type="reset" class="btn-reset">Borrar</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div class="redes-sociales">
+        <p>Contactame por acá:</p>
+        <a
+          href="https://github.com/jainenalbornozb"
+          target="_blank"
+          aria-label="GitHub"
+        >
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com/in//jainen-b-albornoz/"
+          target="_blank"
+          aria-label="LinkedIn"
+        >
+          <i class="fa-brands fa-linkedin"></i>
+        </a>
+        <a
+          href="mailto:jainenbanqueroalbornoz@gmail.com"
+          aria-label="Correo electrónico"
+        >
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
+      <small class="copyright">© Todos los derechos reservados.</small>
+    </footer>
+  </body>
+</html>
